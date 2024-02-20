@@ -11,7 +11,7 @@ header {
     height: 100vh;
 }
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: rgb(141, 141, 141);
 
@@ -28,7 +28,7 @@ nav ul {
 nav li {
     margin-inline-end: 20px;
 }
-
+/* 
 nav li:hover {
 
     color: black;
@@ -37,28 +37,30 @@ nav li:hover {
 
 .back {
     width: 140px;
-    /* height: 30px; */
     padding: 0 !important;
     background: none !important;
     color: gray !important;
     border: none !important;
     outline: none !important;
-    font-size: 15px !important;
-}
+    /* font-size: 15px !important; */
+/* }
 
 .back:hover {
     color: black !important;
-}
+} */
 
-.margin {
+/* .margin {
     margin-top: 200px !important;
 }
 
 .margin h1 {
     font-size: 60px;
 
+} */
+.margin h1{
+    font-size: 60px;
+    font-weight: 500;
 }
-
 .spanhead {
     font-weight: 800;
     color: rgb(180, 156, 115);
@@ -66,4 +68,24 @@ nav li:hover {
 .spanpara{
     color: rgb(180, 156, 115);
     text-decoration: underline;
+    cursor: pointer;
+}
+.margin button{
+    width: 200px;
+    height: 45px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    background-color: rgb(180, 156, 115);
+    color: white;
+}
+.margin button:hover{
+    background-color: rgb(190, 175, 147);
+    
+}
+.margin button:active{
+    background-color: rgb(180, 156, 115);
+    
 }
